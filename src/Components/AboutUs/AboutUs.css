@@ -1,0 +1,195 @@
+.about {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.about-heading {
+        background-color: transparent;
+        font-family: 'Exo 2', sans-serif;
+        font-size: 5rem;
+        font-style: normal;
+        font-weight: 700;
+        height: 7rem;
+        left: 5rem;
+        line-height: 6.5rem;
+        mix-blend-mode: normal;
+        position: absolute;
+        text-align: center;
+        top: 70px;
+        white-space: nowrap;
+        width: auto;
+}
+
+.about-desc {
+        background-color: transparent;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 11px;
+        height: 20px;
+        left: 54px;
+        line-height: 15px;
+        mix-blend-mode: color-burn;
+        position: absolute;
+        text-align: left;
+        top: 140px;
+        width: 300px;
+    
+}
+
+.about-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    z-index: -1;
+    position:absolute; 
+    top:200px ; 
+}
+.about1{
+    width: 600px;
+    height: 300px;
+    border-radius: 15px;
+    margin-right: 72px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+.about2 {
+    width: 600px;
+    height: 320px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50px;
+    left: 700px;
+}
+.about3 {
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    top: 460px;
+    left: 60px;
+}
+.about4 {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 15px;
+    top: 460px;
+    left: 700px;
+}
+.chapterLayer1 {
+    height: 100px;
+    left: 170px;
+    top: 500px;
+    position: absolute;
+    width: 400px;
+}
+
+.chapterImg{
+    background-color:transparent;
+    mix-blend-mode: normal;
+    width:100%;
+}
+
+.chapterLayerImg1 { 
+    left: 70px;
+}
+.chapterLayer2 {
+    height: 100px;
+    right: 120px;
+    top: 500px;
+    position: absolute;
+    width: 400px;
+}
+.chapterLayer3 {
+    height: 100px;
+    right: 120px;
+    top: 1200px;
+    position: absolute;
+    width: 400px;
+}
+.chapterLayer4 {
+    height: 100px;
+    left:120px;
+    top: 1200px;
+    position: absolute;
+    width: 400px;
+}
+
+
+.chapter-detail {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1rem;
+}
+.chapter-detail {
+    font-family: 'Ubuntu', sans-serif;
+}
+.chapter-detail h4{
+font-size: 17px;
+margin-bottom: 10px;
+}
+.chapter-detail p{
+    font-size: 12px;
+    color: rgb(73, 68, 68);
+}
+
+
+@media (max-width: 900px) {
+.about-image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        z-index: -1;
+        position: absolute;
+        top: 200px;
+    }
+   .about1{
+       display: none;
+   }
+   .aboutImg{
+            position: static;
+            width: 70%;
+            left: 20px;
+            height: 400px;
+            margin-bottom: 50px;
+        }
+  .chapterLayer1{
+      display: none;
+  }
+
+.chapter-detail h4 {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.chapter-detail p {
+    font-size: 10px;
+    color: rgb(73, 68, 68);
+}
+.chapterLayer2 {
+      height: 100px;
+     left: 120px;
+      top: 550px;
+      position: absolute;
+      width: 300px;
+  }
+  .chapterLayer3 {
+      height: 100px;
+     left: 120px;
+      top: 1000px;
+      position: absolute;
+      width: 300px;
+  }
+  .chapterLayer4 {
+      height: 100px;
+      left: 120px;
+      top: 1450px;
+      position: absolute;
+      width: 300px;
+  }
+    
+}

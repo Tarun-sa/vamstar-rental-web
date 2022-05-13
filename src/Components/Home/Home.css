@@ -1,0 +1,153 @@
+.home{
+    background-image: url("../../images/FrontImage.jpg");
+    background-repeat: no-repeat;
+    background-position:100%;
+    background-size:100%;
+    height: 70rem;
+    width: 100%;
+    margin-top: 0;
+    position: relative;
+}
+.homePage h1{
+    font-family: 'Exo 2', sans-serif;
+    color: #ffffff;
+    font-style: bold;
+    line-height: 7rem;
+    font-size: 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.homePage p {
+    font-family: 'Exo 2', sans-serif;
+    color: #ffffff;
+    font-style: bold;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.layer1{
+    background-color: transparent;
+    height: 10rem;
+    width: 50%;
+    left: 50%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top:70%;
+    transform: translateX(-50%);
+   
+}
+.info{
+    padding-top: 5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.cities {
+    padding: 14px 40px;
+    color: rgb(61, 48, 48);
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20%;
+    left: 26%;
+    font-family: 'Exo 2', sans-serif;
+}
+.dates {
+    padding: 14px 40px;
+    color: rgb(61, 48, 48);
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20%;
+    left: 39%;
+    font-family: 'Exo 2', sans-serif;
+}
+.guests {
+    padding: 14px 40px;
+    color: rgb(61, 48, 48);
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20%;
+    left: 52%;
+    font-family: 'Exo 2', sans-serif;
+}
+.search{
+        padding: 14px 40px;
+        color: #ffffff;
+        font-size: 15px;
+        background-image: linear-gradient(to right ,#FF594C,#FAC527);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 20%;
+        left: 64.5%;
+        font-family: 'Ubuntu', sans-serif;
+}
+@media (max-width: 900px) {
+    .homePage h1{
+        font-size: 2rem;
+        line-height: 1em;
+        top: 40%;
+    }
+        .homePage p{
+            font-size: 1rem;
+            margin-top: 0.2rem;
+            top: 45%;
+        }
+        .layer1{
+           display: none;
+            
+        }
+        .cities{
+            top: 50%;
+            height: 10px;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: black;
+        }
+        .dates {
+            top: 55%;
+            height: 10px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+                 }
+    .guests{
+           top: 60%;
+           height: 10px;
+           left: 50%;
+           transform: translate(-50%, -50%);
+           width: 155px;
+           color: black;
+    }   
+    .search{
+            top: 65%;
+            height: 10px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 10px;
+            width: 155px;
+    }
+ 
+}

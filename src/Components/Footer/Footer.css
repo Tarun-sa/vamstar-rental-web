@@ -1,0 +1,24 @@
+.footer{
+    position: relative;
+    top:1300px;
+}
+.items a{
+    color: black;
+}
+.footer-call{
+    color: black !important;
+    border-color: black !important;
+}
+.footer-desc{
+    position: absolute;
+    top: 90px;
+    left: 57px;
+    font-size: 12px;
+    padding-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+@media (max-width: 900px) {
+    .footer{
+        display: none !important;
+    }
+}
